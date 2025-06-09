@@ -1,0 +1,35 @@
+
+        Instructions for the Earthquake Sandy Soil Liquefaction Risk Index Rating Program Based on Static Cone Penetration Test
+
+        I. Program Overview
+        This program is used to calculate and evaluate the possibility of sandy soil liquefaction under earthquake action and its rating, based on the data of static cone penetration test (CPT).
+
+        II. Description of Input Parameters
+        1. Measured Cone Tip Resistance (MPa): The cone tip resistance value obtained from the static cone penetration test.
+        2. Groundwater Level Depth (m): The depth of the groundwater level at the test point.
+        3. Peak Ground Acceleration (g): The peak ground acceleration during the earthquake.
+        4. Surface Wave Magnitude Ms: The surface wave magnitude of the earthquake.
+        5. Friction Ratio: The ratio of the cone tip resistance to the sidewall frictional resistance.
+        6. Liquefaction Layer Thickness (m): The thickness of the soil layer that may liquefy.
+        7. Middle Depth of Liquefaction Layer (m): The middle depth of the liquefaction layer.
+
+        III. Operation Steps
+        1. Add Test Point: Click the "Add New Point" button.
+        2. Add Soil Layer: Click the "Add New Layer" button under each test point.
+        3. Input Parameters: Enter the parameters of each soil layer in the corresponding input boxes.
+        4. Calculate Results: Click the "Calculate Liquefaction Level" button to obtain the calculation results.
+
+        IV. Result Explanation
+        1. Contribution Value: The contribution of each soil layer to the overall liquefaction possibility.
+        2. Point Liquefaction Index: The comprehensive liquefaction possibility index of each soil layer.
+        3. Liquefaction Level: The level of liquefaction (No Liquefaction, Slight Liquefaction, Moderate Liquefaction, Severe Liquefaction) divided according to the liquefaction index.
+
+        V. Import and Export
+        1. Import: Click the "Import Excel File" button to import the pre-prepared test data.
+        2. Export: Click the "Export Results" button to export the calculation results as an Excel file.
+
+        VI. Notes
+        1. All input parameters should be valid numbers.
+        2. The minimum value of the friction ratio is 0.4.
+        3. Ensure that all necessary parameters are entered before calculation.
+        
